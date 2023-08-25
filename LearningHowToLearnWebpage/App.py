@@ -15,16 +15,16 @@ def load_lottieurl(url):
 # - load assets -
 lottie_coding = load_lottieurl("https://lottie.host/cb30774a-6c16-463b-b56d-46d7a989f10a/aU64SOq0w1.json")
 
-img_MacBook_pic = Image.open(r"C:\Users\Chris\Pictures\Learning how to learn pics\pexels-vlada-karpovich-4050325.jpg")
+img_MacBook_pic = Image.open(r"Learning how to learn pics\pexels-vlada-karpovich-4050325.jpg")
 resized_img_MacBook_pic = img_MacBook_pic.resize((round(img_MacBook_pic.size[0]*0.16125), round(img_MacBook_pic.size[1]*0.16125)))
 
-img_Memory = Image.open(r"C:\Users\Chris\Pictures\Learning how to learn pics\pexels-leah-kelley-185933.jpg")
+img_Memory = Image.open(r"Learning how to learn pics\pexels-leah-kelley-185933.jpg")
 resized_img_Memory = img_Memory.resize((round(img_Memory.size[0]*0.3), round(img_Memory.size[1]*0.35)))
 
-img_Procrastination = Image.open(r"c:\Users\Chris\Pictures\Learning how to learn pics\pexels-brett-jordan-7939943.jpg")
+img_Procrastination = Image.open(r"Learning how to learn pics\pexels-brett-jordan-7939943.jpg")
 resized_Procrastination = img_Procrastination.resize((round(img_Procrastination.size[0]*0.12), round(img_Procrastination.size[1]*0.12)))
 
-img_puzzle_pieces = Image.open(r"C:\Users\Chris\Pictures\Learning how to learn pics\pexels-pixabay-247819 (1).jpg")
+img_puzzle_pieces = Image.open(r"Learning how to learn pics\pexels-pixabay-247819 (1).jpg")
 resized_img_puzzle_pieces = img_puzzle_pieces.resize((round(img_puzzle_pieces.size[0]*0.2), round(img_puzzle_pieces.size[1]*0.2)))
 
 
