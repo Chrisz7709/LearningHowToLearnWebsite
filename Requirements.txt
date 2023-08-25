@@ -1,0 +1,5 @@
+pip install streamlit
+pip install streamlit-lottie
+pip install requests
+pip install pillow
+streamlit run app.py
